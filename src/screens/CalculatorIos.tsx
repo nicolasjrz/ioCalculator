@@ -13,9 +13,9 @@ export const CalculatorIosScreen = () => {
 			</View>
 
 			<View style={themeStyles.row}>
-				<CalculatorButton label={'C'} />
-				<CalculatorButton label={'+/-'} />
-				<CalculatorButton label={'del'} />
+				<CalculatorButton label={'C'} color={colors.lightGray} blackText={true} />
+				<CalculatorButton label={'+/-'} color={colors.lightGray} blackText={true} />
+				<CalculatorButton label={'del'} color={colors.lightGray} blackText={true} />
 				<CalculatorButton label={'/'} color={colors.orange} />
 			</View>
 			<View style={themeStyles.row}>
